@@ -48,8 +48,10 @@ Las expresiones matemáticas son evaluadas mediante un motor optimizado que sopo
 ## 🛡️ Gestión de Errores y Excepciones
 
 El sistema cuenta con validaciones estrictas en tiempo de ejecución para evitar fallos críticos:
-- **Indefinición aritmética:** $x / 0 ightarrow$ `"Error: Indefinido"`
-- **Dominios logarítmicos inválidos:** $\ln(x \le 0) ightarrow$ `"Error de Dominio"`
+- **Indefinición aritmética:** $x / 0 
+ightarrow$ `"Error: Indefinido"`
+- **Dominios logarítmicos inválidos:** $\ln(x \le 0) 
+ightarrow$ `"Error de Dominio"`
 - **Desbordamiento numérico:** Control de límites por `Overflow / Underflow`.
 
 ---
